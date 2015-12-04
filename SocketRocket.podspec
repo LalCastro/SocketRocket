@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
-  s.name               = "SocketRocket"
+  s.name               = "SocketRocket-PinningPolicy"
   s.version            = '0.4.2'
   s.summary            = 'A conforming WebSocket (RFC 6455) client library.'
-  s.homepage           = 'https://github.com/square/SocketRocket'
+  s.homepage           = 'https://github.com/FredericJacobs/SocketRocket'
   s.authors            = 'Square'
   s.license            = 'Apache License, Version 2.0'
-  s.source             = { :git => 'https://github.com/square/SocketRocket.git', :tag => s.version.to_s }
+  s.source             = { :git => 'https://github.com/FredericJacobs/SocketRocket.git', :tag => s.version.to_s }
   s.source_files       = 'SocketRocket/*.{h,m}'
   s.requires_arc       = true
 
